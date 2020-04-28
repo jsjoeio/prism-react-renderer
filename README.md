@@ -388,7 +388,7 @@ When converting a Prism CSS theme it's mostly just necessary to use classes as
 
 </details>
 
-By default `prism-react-renderer` only includes an arbitrary subset of the languages that Prism supports. You can add support for more by including their defimitions from the main `prismjs` package:
+By default `prism-react-renderer` only includes an [arbitrary subset of the languages](https://github.com/FormidableLabs/prism-react-renderer/blob/master/src/vendor/prism/includeLangs.js) that Prism supports. You can add support for more by including their definitions from the main `prismjs` package:
 
 ```js
 import Prism from "prism-react-renderer/prism";
